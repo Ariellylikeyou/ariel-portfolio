@@ -2,17 +2,17 @@
    TOKENS + GLOBAL
 ========================= */
 :root {
-  --bg: #0f1115;
-  --bg-2: #0c0e12;
-  --card: #1a1d24;
-  --card-2: #14161b;
-  --text: #ffffff;
-  --muted: #aaa;
-  --muted-2: #bbb;
-  --accent: #00ffcc;
-  --accent-dim: rgba(0,255,204,.14);
-  --border: rgba(255,255,255,.08);
-  --radius: 15px;
+  --bg: #121212;
+  --bg-2: #1a1a1a;
+  --card: #252525;
+  --card-2: #2d2d2d;
+  --text: #f5f5f5;
+  --muted: #777777;
+  --muted-2: #aaaaaa;
+  --accent: #635bff;
+  --accent-dim: rgba(99,91,255,.14);
+  --border: rgba(255,255,255,.05);
+  --radius: 12px;
   --max: 1200px;
 }
 * { margin: 0; padding: 0; box-sizing: border-box; }
