@@ -131,7 +131,7 @@ a[aria-disabled="true"] { opacity: .6; cursor: not-allowed; }
 .hero-right { max-width: 360px; z-index: 2; flex-shrink: 0; }
 .hero-pic {
   width: 100%; aspect-ratio: 1/1; object-fit: cover; border-radius: 50%;
-  border: 3px solid var(--accent); transition: transform .4s ease, box-shadow .4s ease;
+  border: 3px solid var(--muted); transition: transform .4s ease, box-shadow .4s ease;
 }
 .hero-pic:hover { transform: scale(1.03); box-shadow: 0 0 25px rgba(0,255,204,.4); }
 .hero-bg-lines::before, .hero-bg-lines::after {
@@ -173,7 +173,7 @@ a[aria-disabled="true"] { opacity: .6; cursor: not-allowed; }
 .profile-card { display: flex; flex-direction: column; align-items: center; text-align: center; align-self: start; }
 .profile-pic {
   width: 140px; height: 140px; border-radius: 50%; object-fit: cover;
-  margin-bottom: 20px; border: 3px solid var(--accent);
+  margin-bottom: 20px; border: 3px solid var(--muted);
 }
 .about-points { list-style: none; margin-top: 8px; font-size: .9rem; color: var(--muted-2); display: grid; gap: 8px; }
 .about-points li::before { content: "▸ "; color: var(--accent); }
